@@ -109,3 +109,62 @@
 body{
     background-color: blueviolet;
 }
+@media all and (min-width:280px) and (max-width:1024px) {
+
+   #major{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+
+} 
+#navbar{
+    flex-wrap: wrap;
+}
+#sign-up{
+    padding: 0.5px;
+    width: 80%;
+    font-size: x-small;
+}
+.search{
+    width: 80%;
+    margin-right:20px ;
+    border-radius: 20px;
+}
+.apply{
+    background-color: transparent;
+    border: 0cap;
+    margin-left: 200px;
+}
+#mainDiv{
+    display: flex; 
+    gap: 10px;
+    margin-left: 2px;
+    flex-wrap: wrap;
+ }
+ #Paragraph{
+    margin-left: 30px; 
+    margin-bottom: 50px;
+  }
+  #box{
+    border-radius: 20px;
+    width: 60%;
+}
+#sentence{
+    font-size: 150%;
+    margin-bottom: 0.5px;
+    
+}
+#schoolboy{
+    margin-top: 50px;
+    width: 400px;
+    height: 250px;
+}
+#Footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: smaller;
+}
+
+}
