@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" href="style.css">
 </head>
 <body>
-    <div id="major">
+    <main>
         <nav id="navbar">
             <div id="heading">
                 <h3>baims</h3>
@@ -16,8 +17,9 @@
                 <button class="courses">Courses</button>
             </div>
 
-            <div>
-                <button class="search" type="text"><i class="fa fa-search"></i>Search for anything here...</button>
+            <div class="search_button">
+                <input type="text" name="search" placeholder="search footer anything here...">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
 
             <div id="apply">
@@ -36,11 +38,11 @@
         </nav>
 
         <div>
-            <div id="mainDiv">
-                <div id="Paragraph">
-                     <div id="sentence"><br><br><br><h1><b>Study anytime,<br>wherever you are</b></h1></div><br>
+            <div id="study_anytime">
+                <div id="Paragraph_bold">
+                     <div id="sentence_study_subject"><br><br><br><h1><b>Study anytime,<br>wherever you are</b></h1></div><br>
                      <p>Study any subject you want from hundreds of courses with Baims</p><br>
-                     <button id="box" type="search">What do you want to learn?</button>
+                     <input type="text" id="btn_what" name="search" placeholder="do you want to learn?" input type="text">
                      <br><br><br>
                </div>
                         <img id="schoolboy" src="/images/school boy.png" alt="A pile of books" width="800px" height="500px">
@@ -73,6 +75,6 @@
                 </div>
             </footer>
         </div>
-    </div>
+    </main>
 </body>
 </html>
